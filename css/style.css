@@ -379,3 +379,89 @@ ul li {
   padding-right: 75px;
   margin-top: 20px;
 }
+
+/* ---------------------------
+      Get in Touch Area CSS 
+----------------------------*/
+.get-touch {
+  padding: 80px 0;
+  background-color: #252B42;
+}
+.touch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.touch-content h2 {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.touch-content p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.touch-form {
+  display: flex;
+}
+.touch-subscribe .email {
+  width: 260px;
+  height: 55px;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: 1px solid #23A6F0;
+}
+.touch-subscribe .email:focus{
+  outline: none;
+}
+.touch-subscribe .subscribe {
+  position: relative;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  left: -46px;
+  padding: 8px 30px;
+  background-color: #23A6F0;
+  color: #FFFFFF;
+  border: 1px solid #23A6F0;
+}
+.subscribe:focus{
+  outline: none;
+}
+
+
+/* ---------------------------
+      Footer Area CSS 
+----------------------------*/
+.footer-in {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+}
+.footer-content h3 {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+}
+.footer-content ul li {
+  margin: 10px 0;
+}
+.footer-content ul li a {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.footer-bottom-content {
+  padding: 40px 0;
+  background-color: #FAFAFA;
+}
+.footer-bottom-content p {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #737373;
+}
