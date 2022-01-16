@@ -183,4 +183,50 @@ ul li {
 /* ---------------------------
       Care Area CSS 
 ----------------------------*/
-.
+.carees {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+.single-care {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
+  padding: 20px 40px;
+}
+
+.care-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.care-type .care-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #23A6F0;
+}
+.care-type .care-icon i {
+    font-weight: 900;
+    font-size: 24px;
+    color: #fff;
+    line-height: 2.9;
+}
+.care-type .care-title h4{
+  font-weight: bold;
+  font-size: 16px;
+  color: #252B42;
+  margin-left: 15px;
+}
+.care-info ul li {
+  margin: 10px 0;
+}
+.care-info ul li a {
+  color: #23A6F0;
+  font-weight: bold;
+  font-size: 16px;
+}
