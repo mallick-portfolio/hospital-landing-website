@@ -25,6 +25,7 @@ body{
 a{
   text-decoration: none;
   display: inline-block;
+  letter-spacing: 0.2px;
 }
 ul{
   margin: 0;
@@ -33,18 +34,41 @@ ul{
 ul li {
   list-style: none;
 }
-
+.section-title {
+  text-align: center;
+  margin-bottom: 112px;
+}
+.section-title h2 {
+  margin-bottom: 10px;
+  color: #252B42;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+}
+.cmn-btn a {
+  padding: 15px 36px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.cmn-margin{
+  margin: 112px 0;
+}
 
 
 /* ---------------------------
       Header Area CSS 
 ----------------------------*/
+.header {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  margin-bottom: 112px;
+}
+
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 17px 0;
-  background-color: green;
 }
 .left-menu, .nav-menu ul{
   display: flex;
@@ -60,7 +84,6 @@ ul li {
 }
 .nav-menu ul li {
   padding: 15px 30px;
-  background-color: red;
   margin-right: 21px;
 }
 .nav-menu ul li a{
@@ -81,3 +104,83 @@ ul li {
 .right-menu a i {
   margin-left: 10px;
 }
+
+/* ---Header bottom Area */
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  color: #FFFFFF;
+}
+
+.header-bottom h1{
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  color: #FFFFFF;
+}
+.header-bottom p{
+  margin: 35px 0;
+}
+.header-btn {
+  display: flex;
+}
+.header-btn .get-quote-btn a{
+  margin-right: 30px;
+  background: #23A6F0;
+  color: #FFFFFF;
+}
+.header-btn .learn-more-btn a {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+.header-form{
+  padding: 40px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+.header-form h3{
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  margin-bottom: 30px;
+}
+.header-form form .label{
+  font-weight: 600;
+  color: #252B42;
+  letter-spacing: 0.2px;
+  margin: 10px 0;
+  display: inline-block;
+}
+.header-form form input, select{
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 20px;
+  border: 1px solid #23A6F0;
+  font-size: 16px;
+}
+
+.header-form form input:focus, select:focus{
+  outline: none;
+}
+.header-form .form-btn a {
+  background-color: #23A6F0;
+  margin-top: 30px;
+  padding: 15px 50px;
+  color: #FFFFFF;
+}
+
+
+
+
+
+/* ---------------------------
+      Care Area CSS 
+----------------------------*/
+.
