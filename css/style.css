@@ -53,6 +53,9 @@ ul li {
 .cmn-margin{
   margin: 112px 0;
 }
+.fill {
+  color: #F3CD03;
+}
 
 
 /* ---------------------------
@@ -195,7 +198,7 @@ ul li {
   justify-content: center;
   flex-direction: column;
   box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
-  padding: 20px 40px;
+  padding: 30px 40px;
 }
 
 .care-type {
@@ -224,9 +227,35 @@ ul li {
 }
 .care-info ul li {
   margin: 10px 0;
+  font-weight: 600;
 }
 .care-info ul li a {
   color: #23A6F0;
   font-weight: bold;
   font-size: 16px;
+}
+
+
+/* ---------------------------
+      Doctors Area CSS 
+----------------------------*/
+.doctors {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+.doctor{
+  padding: 35px;
+  box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+}
+.doctor-ratting ul {
+  display: flex;
+}
+.doctor-ratting ul li {
+  margin: 0 5px;
+}
+.doctor p {
+  margin: 20px 0;
+  font-weight: 600;
 }
