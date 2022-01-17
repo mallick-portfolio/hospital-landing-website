@@ -14,7 +14,8 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   overflow-x: hidden;
-  color:#737373;;
+  color:#737373;
+  width: 100%;
 }
 
 
@@ -208,8 +209,12 @@ ul li {
   flex-direction: column;
   box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
   padding: 30px 40px;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
-
+.single-care:hover{
+  background-color: #23A6F0;
+  color: #FFFFFF;
+}
 .care-type {
   display: flex;
   justify-content: space-between;
@@ -221,12 +226,20 @@ ul li {
   border-radius: 50%;
   text-align: center;
   background-color: #23A6F0;
+  transition: background-color 0.5s ease;
+}
+.single-care:hover .care-icon{
+  background-color: #FFFFFF;
 }
 .care-type .care-icon i {
     font-weight: 900;
     font-size: 24px;
     color: #fff;
     line-height: 2.9;
+    transition: color .5s ease;
+}
+.single-care:hover .care-icon i {
+  color: #23A6F0;
 }
 .care-type .care-title h4{
   font-weight: bold;
@@ -235,13 +248,17 @@ ul li {
   margin-left: 15px;
 }
 .care-info ul li {
-  margin: 10px 0;
+  margin: 15px 0;
   font-weight: 600;
 }
 .care-info ul li a {
   color: #23A6F0;
   font-weight: bold;
   font-size: 16px;
+
+}
+.single-care:hover .care-info a {
+  color: #252B42;
 }
 
 
@@ -325,6 +342,12 @@ ul li {
   padding: 50px 40px;
   box-shadow: 0px 0px 40px rgb(0 0 0 / 25%);
   border-radius: 10px;
+  transition: background-color .5s ease, transform .5s ease;
+}
+.single-package:hover{
+  background-color: #23A6F0;
+  transform: scale(1.1);
+  color: #FFFFFF;
 }
 .single-package h3 {
   font-weight: bold;
@@ -333,6 +356,7 @@ ul li {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
+
 .single-package h4 {
   font-weight: bold;
   font-size: 16px;
@@ -340,17 +364,24 @@ ul li {
   color: #737373;
   margin-bottom: 20px;
 }
+.single-package:hover h4{
+  color: #FFFFFF;
+}
 .single-package p span {
   color: #23A6F0;
   font-size: 24px;
   font-weight: bold;
 }
+
 .single-package p sup{
   color: #23A6F0;
   font-size: 16px;
 }
 .single-package p sub{
   color: #23A6F0;
+}
+.single-package:hover p{
+  color: #FFFFFF;
 }
 .package-item ul li {
   margin: 10px 0;
@@ -378,6 +409,11 @@ ul li {
   padding-left: 75px;
   padding-right: 75px;
   margin-top: 20px;
+  transition: background .5s ease, color .5s ease;
+}
+.single-package:hover .package-btn a{
+  background: #FFFFFF;
+  color: #23A6F0;
 }
 
 /* ---------------------------
@@ -455,7 +491,7 @@ ul li {
   letter-spacing: 0.2px;
   color: #737373;
 }
-.footer-bottom-content {
+.footer-bottom {
   padding: 40px 0;
   background-color: #FAFAFA;
 }
